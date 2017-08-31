@@ -10,7 +10,7 @@ from libs.lib import newIcon, labelValidator
 
 BB = QDialogButtonBox
 
-
+# 画框后出现选择分类的对话框
 class LabelDialog(QDialog):
 
     def __init__(self, text="Enter object label", parent=None, listItem=None):

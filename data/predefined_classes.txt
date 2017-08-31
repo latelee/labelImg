@@ -1,5 +1,6 @@
+plate
+car
 dog
 person
 cat
 tv
-car

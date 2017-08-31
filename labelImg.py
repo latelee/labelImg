@@ -221,7 +221,7 @@ class MainWindow(QMainWindow, WindowMixin):
                         'space', 'verify', u'Verify Image')
 
         save = action('&Save', self.saveFile,
-                      'Ctrl+S', 'save', u'Save labels to file', enabled=False)
+                      's', 'save', u'Save labels to file', enabled=False)
         saveAs = action('&Save As', self.saveFileAs,
                         'Ctrl+Shift+S', 'save-as', u'Save labels to a different file',
                         enabled=False)
